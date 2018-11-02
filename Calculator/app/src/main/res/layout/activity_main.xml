@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="335dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/mybutton"
+        android:autoSizeTextType="uniform"
+        android:backgroundTint="#8ad9f6"
+        android:backgroundTintMode="src_over" />
+
+    <Button
+        android:id="@+id/buttonAC"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="160dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="#042787"
+        android:text="AC"
+        android:textColor="#fbfffb" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="228dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="298dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="4" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="371dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="439dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="0" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="299dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/buttonPer"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="161dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="#fbfffb"
+        android:text="%" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="227dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/buttonAS"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="160dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="#fbfffb"
+        android:text="+/-" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="372dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="2" />
+
+    <Button
+        android:id="@+id/buttonDot"
+        android:layout_width="65dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="121dp"
+        android:layout_marginTop="439dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="." />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="298dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="371dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="3" />
+
+
+    <ImageButton
+        android:id="@+id/buttonDel"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonAS"
+        android:layout_alignBottom="@+id/button0"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/mybutton"
+        android:padding="1dp"
+        android:paddingHorizontal="2dp"
+        android:src="@drawable/del"
+        tools:ignore="InvalidId" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="228dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/buttonEqual"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="440dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="#042787"
+        android:text="="
+        android:textColor="#fbfffb" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="302dp"
+        android:layout_marginTop="371dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:text="+"
+        android:textColor="#fbfffb"/>
+
+    <Button
+        android:id="@+id/buttonMul"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="228dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:fadeScrollbars="false"
+        android:textColor="#fbfffb"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="299dp"
+        android:layout_marginTop="298dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="#fbfffb"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="160dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/mybutton"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="#fbfffb"
+        android:text="÷" />
+
+
+</RelativeLayout>
